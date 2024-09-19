@@ -1,13 +1,7 @@
-# react-native-event-emitter-issue
 
-![Build](https://github.com/coado/react-native-event-emitter-issue/workflows/Pre%20Merge%20Checks/badge.svg)
+# Steps to reproduce
 
-This is your new React Native Reproducer project.
-
-## Reproducer todo list
-
-- [x] Create a new reproducer project.
-- [ ] Git clone your repository locally.
-- [ ] Edit the project to reproduce the failure you're seeing.
-- [ ] Push your changes, so that Github Actions can run the CI.
-- [ ] Make sure the repository is public and share the link with the issue you reported.
+1. Start the app in the old architecture
+2. Observe that the log from event listener is called
+3. Switch to Fabric and rebuild the app
+4. Notice that the event listener is not called
